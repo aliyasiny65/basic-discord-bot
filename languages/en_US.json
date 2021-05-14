@@ -148,7 +148,7 @@
 			"description": "It sends the bot's invitation link, website and support server in a single message.",
 			"usage": "",
 			"messages": {
-				"inviteEmbed": ":love_letter: **Invitation Link**\n[Click it, let it come!](https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8)\n\n:floppy_disk: **Support Server**\n[Join Us](https://discord.gg/Xn3JRrbY8d)\n\n:gem: **Website**\n[Visit](https://fatihege.github.io/crypon/)"
+				"inviteEmbed": ":love_letter: **Invitation Link**\n[Click it, let it come!](https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8)\n\n:floppy_disk: **Support Server**\n[Join Us](https://discord.gg/Xn3JRrbY8d)\n\n:gem: **Website**\n[Visit](site)"
 			}
 		},
 		"invites": {
@@ -513,7 +513,7 @@
 		},
 		"guildDelete": {
 			"messages": {
-				"message": "Have you had a problem using the bot? You can report this issue to us.\nSupport Server: https://discord.gg/Xn3JRrbY8d\nWebsite: https://fatihege.github.io/crypon/"
+				"message": "Have you had a problem using the bot? You can report this issue to us.\nSupport Server: https://discord.gg/Xn3JRrbY8d\nWebsite: site"
 			}
 		},
 		"guildIntegrationsUpdate": {
