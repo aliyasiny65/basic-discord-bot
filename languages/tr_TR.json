@@ -132,8 +132,8 @@
 			"messages": {
 				"botCommandsTitle": "{0} Komutları",
 				"listOfAllOfTheCommands": "Bende kullanabileceğin bütün komutların listesi.",
-				"moreDetailsWithGuild": "Daha detaylı bilgi almak için **{0}** sunucusunda `{1}yardim <komut>` komutunu kullanabilirsiniz.\n\nDestek Sunucusu: https://discord.gg/Xn3JRrbY8d",
-				"moreDetails": "Daha detaylı bilgi almak için `{0}yardim <komut>` komutunu kullanabilirsiniz.\n\nDestek Sunucusu: https://discord.gg/Xn3JRrbY8d",
+				"moreDetailsWithGuild": "Daha detaylı bilgi almak için **{0}** sunucusunda `{1}yardim <komut>` komutunu kullanabilirsiniz.\n\nDestek Sunucusu: destek sunucusu link",
+				"moreDetails": "Daha detaylı bilgi almak için `{0}yardim <komut>` komutunu kullanabilirsiniz.\n\nDestek Sunucusu: destek sunucu link",
 				"iSentCommands": "Sana bütün komutlarımın listesini özel mesaj olarak gönderdim.",
 				"errorOccurred": "Komutları sana gönderirken bir hatayla karşılaşıyorum. Özel mesajları engellemiş olabilirsin.",
 				"commandNotFound": "Böyle bir komut bulunamadı.",
