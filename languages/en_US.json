@@ -132,8 +132,8 @@
 			"messages": {
 				"botCommandsTitle": "{0} Commands",
 				"listOfAllOfTheCommands": "Here is a list of all the commands you can use on me.",
-				"moreDetailsWithGuild": "You can use the `{0}help <command>` command on the **{1}** server to get more detailed information.\n\nSupport Server: https://discord.gg/Xn3JRrbY8d",
-				"moreDetails": "You can use the command `{0}help <command>` to get more detailed information.\n\nSupport Server: https://discord.gg/Xn3JRrbY8d",
+				"moreDetailsWithGuild": "You can use the `{0}help <command>` command on the **{1}** server to get more detailed information.\n\nSupport Server: support server link",
+				"moreDetails": "You can use the command `{0}help <command>` to get more detailed information.\n\nSupport Server: support server link",
 				"iSentCommands": "I have sent you the list of all my commands as a private message.",
 				"errorOccurred": "I am getting an error sending commands to you. You may have blocked private messages.",
 				"commandNotFound": "No such command was found.",
