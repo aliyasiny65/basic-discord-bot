@@ -223,6 +223,14 @@
 				"embedTitle": "Diller"
 			}
 		},
+    		"lock": {
+   			"description": "Komutu kullandığınız kanalda herkese yazı yazma yetkisini kapatır. (Yönetici yetkisi olan kullanıcılar yinede yazabilirler.)",
+     			"usage": "",
+			 "messages": {
+				"error": "Bir hata oluştu!",
+       				"successful": "🔒 Kanal başarıyla kilitlendi!"
+			}
+   		},
 		"logchannel": {
 			"description": "Sunucuda olup bitenlerin kaydını tutacağınız kanalı seçin.",
 			"usage": "<kanal>",
@@ -391,6 +399,14 @@
 				"errorOccurred": "Kullanıcının engeli kaldırılırken bir sorun oluştu."
 			}
 		},
+      		"unlock": {
+     		"description": "Bulunduğunuz kanalda yazma kilidi var ise onu kaldırır.",
+      		"usage": "",
+		"messages": {
+		  "error": "Bir hata oluştu!",
+       		  "successful": "🔒 Kanal kilidi başarıyla kaldırıldı!"
+			}
+    		},
 		"unlogchannel": {
 			"description": "Daha önceden seçilen günlük kaydı kanalını silin.",
 			"usage": "",
