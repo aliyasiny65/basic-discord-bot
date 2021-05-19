@@ -223,6 +223,14 @@
 				"embedTitle": "Languages"
 			}
 		},
+		      "lock": {
+    		      "description": "It turns off the authorization to write to everyone on the channel you are using the command. (Users with administrative authority can still write.)",
+      		      "usage": "",
+			"messages": {
+			  "error": "Something went wrong!",
+       			  "successful": "🔒 Channel succesfully locked!"
+			}
+   		},
 		"logchannel": {
 			"description": "Choose the channel you want to keep track of what is happening on the server.",
 			"usage": "<channel>",
@@ -391,6 +399,14 @@
 				"errorOccurred": "There was a problem unbaning the user."
 			}
 		},
+		"unlock": {
+      			"description": "If the channel you are on has a lock, it removes it.",
+      			"usage": "",
+			"messages": {
+				"error": "Something went wrong!",
+        			"successful": "🔒 Succesfully channel lock removed!"
+			}
+    		},
 		"unlogchannel": {
 			"description": "Delete the previously selected logging channel.",
 			"usage": "",
