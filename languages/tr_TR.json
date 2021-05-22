@@ -148,7 +148,7 @@
 			"description": "Botun davet bağlantısını, web sitesini ve destek sunucusunu tek bir mesaj içerisinde gönderir.",
 			"usage": "",
 			"messages": {
-				"inviteEmbed": ":love_letter: **Davet Bağlantısı**\n[Tıkla, gelsin!](https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8)\n\n:floppy_disk: **Destek Sunucusu**\n[Aramıza Katıl](https://discord.gg/Xn3JRrbY8d)\n\n:gem: **Web Sitesi**\n[Ziyaret Et](web site)"
+				"inviteEmbed": ":love_letter: **Davet Bağlantısı**\n[Tıkla, gelsin!](https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8)\n\n:floppy_disk: **Destek Sunucusu**\n[Aramıza Katıl](https://discord.gg/support)\n\n:gem: **Web Sitesi**\n[Ziyaret Et](web site)"
 			}
 		},
 		"invites": {
@@ -538,7 +538,7 @@
 		},
 		"guildDelete": {
 			"messages": {
-				"message": "Botun kullanımıyla ilgili bir sorun mu yaşadınız? Bu sorunu bize bildirebilirsiniz.\nDestek Sunucusu: https://discord.gg/Xn3JRrbY8d\nWeb Sitesi: site"
+				"message": "Botun kullanımıyla ilgili bir sorun mu yaşadınız? Bu sorunu bize bildirebilirsiniz.\nDestek Sunucusu: https://discord.gg/support link\nWeb Sitesi: site"
 			}
 		},
 		"guildIntegrationsUpdate": {
