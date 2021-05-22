@@ -1,6 +1,6 @@
 {
   "name": "Crypon",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "description": "A powerful Discord bot",
   "main": "index.js",
   "dependencies": {
@@ -18,6 +18,6 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "SENİNKİ",
+  "author": "Ali Yasin",
   "license": "BSD 3-Clause"
 }
