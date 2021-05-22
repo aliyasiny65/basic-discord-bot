@@ -381,6 +381,15 @@
 				"embedDescription": "**Sunucu ID:** {0}\n**Sunucu Adı:** {1}\n**Sunucu Sahibi:** {2}\n**Toplam Üye:** {3}\n**Toplam Kanal:** {4} \n**Oluşturulma:** {5}\n**Bölge:** {6}\n**AFK Zaman Aşımı:** {7}\n**{8} Önek:** {9}"
 			}
 		},
+		"slowmode": {
+      			"description": "Komutu kullandığınız kanalda mesaj gönderme süre limiti yani yavaş mod süresini belirttiğiniz süre olarak ayarlar.",
+      			"usage": "<süre(saniye)>",
+			"messages": {
+				"error": "Bir hata oluştu!",
+		        	"successful": "Yavaş mod süresi başarıyla {0} saniye olarak ayarlandı!",
+        			"wrongargs": "Yanlış argüman verdiniz! Yavaş mod süresi minimum 1 saniye olabilir."
+			}
+   		},
 		"stats": {
 			"description": "Botun istatistiklerini görün.",
 			"usage": "",
