@@ -381,6 +381,15 @@
 				"embedDescription": "**Server ID:** {0}\n**Server Name:** {1}\n**Server Owner:** {2}\n**Total Member:** {3}\n**Total Channel:** {4}\n**Server Creation:** {5}\n**Region:** {6}\n**AFK Timeout:** {7}\n**{8} Prefix:** {9}"
 			}
 		},
+		"slowmode": {
+      		"description": "Sets the message sending time limit, that is, the slow mode time, as the time you specify on the channel you use the command.",
+      		"usage": "<time (seconds)>",
+      		"messages": {
+         		"error": "An error has occurred!",
+       	  		"successful": "Slow mode time successfully set to {0} seconds!",
+         		"wrongargs": "You gave wrong argument! Slow mode duration can be minimum 1 second."
+      			}
+     		},
 		"stats": {
 			"description": "See the bot's statistics.",
 			"usage": "",
