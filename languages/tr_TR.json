@@ -307,6 +307,13 @@
 				"errorOccurred": "`{0}` komutu yüklenirken bir hata meydana geliyor."
 			}
 		},
+		"roles": {
+			"description": "Sunucuda ki bütün rolleri ve sunucuda ki rol sayısını gösterir.",
+			"usage": "",
+			"messages": {
+				"rolesembed": "Bu sunucuda toplam {0} adet rol var. Rollerin listesi;\n {1}"
+			}
+		},
 		"report": {
 			"description": "Botun yapımcısına bildiride bulunun.",
 			"usage": "<bildiri>",
