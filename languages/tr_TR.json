@@ -105,6 +105,15 @@
 				"cpuValue": "**Model:** {0}\n**Hız:** {1}\n**Çekirdek Sayısı:** {2}"
 			}
 		},
+   	 	"fakemesaj": {
+			"description": "Bir kişinin adına mesaj atabilirsiniz.",
+			"usage": "<@kişi> <mesaj-içeriği>",
+			"messages": {
+				"membernotexited": "Herhangi bir üye girmedin!",
+     				"memberisbot": "Sahte mesaj botlar üzerinde kullanılamaz!",
+        			"pleaseargs": "Lütfen bir mesaj belirtin!"
+			}
+		},
 		"gif": {
 			"description": "Verilen parametreye göre Tenor'dan bir GIF gösterir.",
 			"usage": "<sorgu>",
