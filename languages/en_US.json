@@ -105,6 +105,15 @@
 				"cpuValue": "**Model:** {0}\n**Speed:** {1}\n**Core Count:** {2}"
 			}
 		},
+		"fakemesaj": {
+			"description": "You pretend to send another message.",
+			"usage": "<@user> <message-content>",
+			"messages": {
+				"membernotexited": "You did not specify any members!",
+        			"memberisbot": "Fake message cannot be used on bots!",
+        			"pleaseargs": "Please specify a message content!"
+			}
+		},
 		"gif": {
 			"description": "Shows a GIF from Tenor as per the given parameter.",
 			"usage": "<query>",
