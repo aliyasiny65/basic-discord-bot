@@ -68,6 +68,14 @@
 		}
 	},
 	"commands": {
+		"ascii": {
+			"description": "Söylediğiniz bir şeyi ASCII ART şeklinde atar.",
+			"usage": "<ascii-metin>",
+			"messages": {
+				"maxcharacter": "Çok fazla karakter kullandınız! Maksimum 75 karakter olan bir metin yazabilirim.",
+        			"plsargs": "Lütfen ASCII art yapılacak bir metin yazınız!"
+			}
+		},
 		"avatar": {
 			"description": "Kendinizin veya başka bir üyenin avatarını görün.",
 			"usage": "<üye[opsiyonel]>",
