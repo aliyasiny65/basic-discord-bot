@@ -68,6 +68,14 @@
 		}
 	},
 	"commands": {
+		      "ascii": {
+			"description": "Throws something you say as ASCII ART.",
+			"usage": "<ascii-text>",
+			"messages": {
+				"maxcharacter": "You used too many characters! I can write a text with a maximum of 75 characters.",
+      				"plsargs": "Please write an ASCII art text!"
+			}
+		},
 		"avatar": {
 			"description": "See your own or a member's avatar.",
 			"usage": "<member[optional]>",
