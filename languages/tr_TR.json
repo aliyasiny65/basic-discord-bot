@@ -68,6 +68,16 @@
 		}
 	},
 	"commands": {
+		      "afk": {
+			"description": "Durumunuzu AFK olarak ayarlar ve sunucuda bir kişi sizi etiketlediğinde ona bilgi verir.",
+			"usage": "<sebep[opsiyonel]>",
+			"messages": {
+        			"afkcik": "<@{0}> Başarılı bir şekilde `AFK` modundan çıkış yaptın.",
+        			"afkbilgi": "{0}, Etiketlemiş olduğun <@{1}> adlı kişi şuan **{2}** sebebiyle AFK.",
+        			"sebepyokdb": "Sebep yok",
+        			"success": "{0}, Başarılı bir şekilde **{1}** sebebiyle `AFK` moduna geçtiniz."
+			}
+		},
 		"ascii": {
 			"description": "Söylediğiniz bir şeyi ASCII ART şeklinde atar.",
 			"usage": "<ascii-metin>",
