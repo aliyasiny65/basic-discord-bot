@@ -153,6 +153,17 @@
 				"errorOccurred": "{0} rolü <@{1}> üyesine eklenirken bir **sorun oluştu**."
 			}
 		},
+		"hack": {
+			"description": "Söylediğiniz kişiyi hackler.(Eğlence amaçlı bir komuttur.)",
+			"usage": "<kişi>",
+			"messages": {
+        			"hacking": "<@{0}> Adlı kişi hackleniyor...",
+        			"hackcomplete": "<@{0}> Adlı kişi hacklendi. \n\nİşte Giriş Bilgileri\nEmail: {1} \nŞifre: {2}",
+        			"hackpasw": "Giriş bilgileri alınıyor...",
+        			"plsmember": "Lütfen hacklenecek bir kişiden bahsediniz!",
+        			"membernotyouerself": "Kendinizi hackleyemezsiniz!"
+			}
+		},
 		"help": {
 			"description": "Botta kullanabileceğiniz bütün komutların listesini çıkartır.",
 			"usage": "<komut[opsiyonel]>",
