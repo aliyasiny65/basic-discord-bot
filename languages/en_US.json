@@ -68,6 +68,16 @@
 		}
 	},
 	"commands": {
+		      "afk": {
+			"description": "Sets your status to AFK and notifies when someone tags you on the server.",
+			"usage": "<reason[optioanl]>",
+			"messages": {
+        			"afkcik": "<@{0}> You have successfully exited 'AFK' mode.",
+        			"afkbilgi": "{0}, The person named <@{1}> you tagged is now AFK because of **{2}**.",
+        			"sebepyokdb": "No Reason",
+        			"success": "{0}, You have successfully switched to 'AFK' mode due to **{1}**."
+			}
+		},
 		      "ascii": {
 			"description": "Throws something you say as ASCII ART.",
 			"usage": "<ascii-text>",
