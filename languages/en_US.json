@@ -153,6 +153,17 @@
 				"errorOccurred": "There was a **problem** adding the {0} role to the <@{1}> member."
 			}
 		},
+		"hack": {
+			"description": "They're aimed at the person you're hacking. (Fun is a command.)",
+			"usage": "<member>",
+			"messages": {
+        			"hacking": "<@{0}> The person named is hacking...",
+        			"hackcomplete": "<@{0}> The person was hacked. \n\nHere is the Login Information\nEmail: {1} \nPassword: {2}",
+        			"hackpasw": "Getting login information...",
+        			"plsmember": "Please mention a person to be hacked!",
+        			"membernotyouerself": "You cannot hack yourself!"
+			}
+		},
 		"help": {
 			"description": "It makes a list of all the commands you can use in the bot.",
 			"usage": "<command[optional]>",
