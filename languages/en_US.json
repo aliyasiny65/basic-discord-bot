@@ -97,6 +97,18 @@
         "plsargs": "Please write an ASCII art text!"
 			}
 		},
+		      "anket": {
+      "description": "Useful for any survey.",
+      "usage": "[question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+      "messages": {
+        "plsquestion": "Please ask a question!\nExample usage: {0}anket [question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+        "minquestioncharacter": "Your question must be a minimum of 4 characters..",
+        "plsoption": "Please specify at least 2 options.\nExample Usage: {0}anket [question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+        "maxoption": "A poll can have up to 5 choices!",
+        "question": ":bar_chart: | **Survey**",
+        "answer": "**Question:** {0}\n\n\n"
+      }
+    },
 		"avatar": {
 			"description": "See your own or a member's avatar.",
 			"usage": "<member[optional]>",
