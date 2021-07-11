@@ -89,6 +89,18 @@
         "success": "{0}, Başarılı bir şekilde **{1}** sebebiyle `AFK` moduna geçtiniz."
 			}
 		},
+	"anket": {
+      	"description": "Herhangi bir anket yapmanıza yarar.",
+      	"usage": "[soru] {Seçenek 1} {Seçenek 2} {Seçenek 3(Opsiyonel)} {Seçenek 4(Opsiyonel)} {Seçenek 5(Opsiyonel)}",
+      	"messages": {
+        	"plsquestion": "Lütfen bir soru sorun!\nÖrnek kullanım: {0}anket [soru] {Seçenek 1} {Seçenek 2} {Seçenek 3(Opsiyonel)} {Seçenek 4(Opsiyonel)} {Seçenek 5(Opsiyonel)}",
+        	"minquestioncharacter": "Soracağınız soru minimum 4 karakterden oluşmalıdır.",
+        	"plsoption": "Lütfen en az 2 adet seçenek belirtin.\nÖrnek kullanım: {0}anket [soru] {Seçenek 1} {Seçenek 2} {Seçenek 3(Opsiyonel)} {Seçenek 4(Opsiyonel)} {Seçenek 5(Opsiyonel)}",
+        	"maxoption": "Bir ankette en fazla 5 seçenek olabilir!",
+        	"question": ":bar_chart: | **Anket**",
+        	"answer": "**Soru:** {0}\n\n\n"
+      			}
+    		},
     	"ascii": {
 			"description": "Söylediğiniz bir şeyi ASCII ART şeklinde atar.",
 			"usage": "<ascii-metin>",
