@@ -146,6 +146,18 @@
 				"cpuValue": "**Model:** {0}\n**Hız:** {1}\n**Çekirdek Sayısı:** {2}"
 			}
 		},
+		    "deposit": {
+    "description": "Cüzdanda ki paranızı bankaya aktarır.",
+    "usage": "<@üye[opsiyonel]>",
+    "messages": {
+      "nottransferredmoney": "❌ Aktaracak paranız yok!",
+      "successfullyallmoneytransferred": "✅ Bütün para başarıyla aktarıldı!",
+      "plstransferamount": "❌ Lütfen ne kadar aktaracağınızı belirtin!",
+      "walletnotmoneyamount": "❌ Cüzdanın da belirttiğin kadar para yok!",
+      "banktransferamountmin": "❌ Banka hesabına minimum 1 TL para aktarabilirsin!",
+      "successfullytransferred": "✅ Başarıyla {0} TL banka hesabınıza aktardınız!"
+      }
+    },
     	"fakemesaj": {
 			"description": "Bir kişinin adına mesaj atabilirsiniz.",
 			"usage": "<@kişi> <mesaj-içeriği>",
