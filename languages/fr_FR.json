@@ -552,6 +552,18 @@
 				"channelNotSelected": "Le canal d'accueil des membres n'est pas déjà sélectionné."
 			}
 		},
+		"withdraw": {
+    		"description": "Retire de l'argent de votre compte bancaire vers votre portefeuille.",
+    		"usage": "<montante>",
+    		"messages": {
+      				"notmoney": "❌ Il n'y a aucune somme d'argent que vous pouvez retirer sur votre compte bancaire!",
+      				"allmoneytransfersuccess": "✅ Tout l'argent de votre compte bancaire a été transféré avec succès dans votre portefeuille!",
+      				"plstransferamount": "❌ Veuillez indiquer combien de CP vous allez transférer!",
+      				"insufficientamount": "❌ Vous n'avez pas beaucoup d'argent sur votre compte bancaire!",
+      				"minamount": "❌ Vous pouvez transférer un minimum de 1 CP!",
+      				"transfersuccess": "✅ J'ai déduit avec succès {0} CP de votre compte bancaire!"
+      			}
+    		},
 		"wlcchannel": {
 			"description": "Spécifiez le canal par lequel les membres rejoignant le serveur seront accueillis.",
 			"usage": "<canal>",
