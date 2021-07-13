@@ -154,6 +154,18 @@
 				"cpuValue": "**Modèle:** {0}\n**La vitesse:** {1}\n**Nombre de cœurs:** {2}"
 			}
 		},
+		    "deposit": {
+    "description": "Transfère votre argent de votre portefeuille à la banque.",
+    "usage": "<@membre[optionelle]>",
+    "messages": {
+      "nottransferredmoney": "❌ Vous n'avez pas d'argent à transférer!",
+      "successfullyallmoneytransferred": "✅ Tout l'argent transféré avec succès!",
+      "plstransferamount": "❌ Veuillez préciser le montant à transférer!",
+      "walletnotmoneyamount": "❌ Votre portefeuille n'a pas autant d'argent que vous l'avez indiqué!",
+      "banktransferamountmin": "❌ Vous pouvez déposer au moins 1 CP sur votre compte bancaire!",
+      "successfullytransferred": "✅ Vous avez transféré avec succès {0} TL sur votre compte bancaire!"
+      }
+    },
       "fakemesaj": {
 			"description": "Vous faites semblant d'envoyer un autre message.",
 			"usage": "<@utilisatrice> <contenu-du-message>",
