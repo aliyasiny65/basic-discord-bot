@@ -544,6 +544,18 @@
 				"channelNotSelected": "The channel to welcome members is not already selected."
 			}
 		},
+		"withdraw": {
+    		"description": "Withdraws money from your bank account to your wallet.",
+    		"usage": "<amount>",
+    		"messages": {
+      				"notmoney": "❌ There is no amount of money you can withdraw in your bank account!",
+      				"allmoneytransfersuccess": "✅ All your money in your bank account has been successfully transferred to your wallet!",
+      				"plstransferamount": "❌ Please indicate how many CP you will transfer!",
+      				"insufficientamount": "❌ You don't have that much money in your bank account!",
+      				"minamount": "❌ You can transfer a minimum of 1 CP!",
+      				"transfersuccess": "✅ Successfully deducted {0} CP from your bank account!"
+      			}
+    		},
 		"wlcchannel": {
 			"description": "Specify the channel through which members joining the server will be greeted.",
 			"usage": "<channel>",
