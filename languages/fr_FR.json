@@ -1,0 +1,685 @@
+{
+	"languageName": "français",
+	"gmtTimeZone": 0,
+	"basic": {
+		"prefixMessage": "Mon préfixe sur ce serveur est `{0}`\nVous pouvez utiliser le `{0}help` commande pour obtenir une liste de toutes mes commandes.",
+		"cannotUsePrivateMessages": "Vous ne pouvez pas utiliser cette commande dans les messages privés!",
+		"plaseGiveArg": "Merci d'argumenter le post, <@{0}>!",
+		"thisCommandUsage": "\nUtilisation de cette commande: `{0}{1} {2}`",
+		"notPermission": "**Vous ne pouvez pas faire ça, <@{0}> !** Pas assez d'autorisation.",
+		"errorOccurred": "Une erreur s'est produite lors de l'exécution de cette commande.",
+		"over2000": "Le message ne peut pas être affiché car sa taille dépasse 2000 caractères.",
+		"yes": "Oui",
+		"no": "Non",
+		"before": "Avant que",
+		"after": "Après",
+		"date": {
+			"year": "An(s)",
+			"month": "Mois(s)",
+			"day": "Jour(s)",
+			"hour": "Heure(s)",
+			"minute": "Minute(s)",
+			"second": "Seconde(s)",
+			"datetime": {
+				"dayNames": [
+          "Soleil",
+          "Lun",
+          "Mar",
+          "Mer",
+          "Jeu",
+          "Ven",
+          "Sam",
+          "Dimanche",
+          "Lundi",
+          "Mardi",
+          "Mercredi",
+          "Jeudi",
+          "Vendredi",
+          "Samedi"
+				],
+				"monthNames": [
+          "Jan",
+          "Fév",
+          "Mar",
+          "Avr",
+          "Mai",
+          "Juin",
+          "Juil",
+          "Août",
+          "SEP",
+          "Oct",
+          "Nov",
+          "Déc",
+          "Janvier",
+          "Février",
+          "Mars",
+          "Avril",
+          "Mai",
+          "Juin",
+          "Juillet",
+          "Août",
+          "Septembre",
+          "Octobre",
+          "Novembre",
+          "Décembre"
+				],
+				"timeNames": ["a", "m", "am", "am", "A", "P", "AM", "PM"]
+			}
+		}
+	},
+	"commands": {
+      "adblock": {
+      "description": "Active ou désactive le système de blocage des publicités.",
+			"usage": "<setting[msil/kick/ban/off]>",
+			"messages": {
+        "ztnkapali": "Actuellement, le système de protection des publicités est déjà désactivé.",
+        "gecersizislm": "Vous avez donné un argument invalide.",
+        "opened": "Ouvert avec succès.",
+        "closed": "Fermé avec succès.",
+        "reklamyasak": "La protection Discord Server Invite est activée sur ce serveur."
+			}
+    },
+      "afk": {
+			"description": "Définit votre statut sur AFK et vous avertit lorsque quelqu'un vous identifie sur le serveur.",
+			"usage": "<raison[optionelle]>",
+			"messages": {
+        "afkcik": "<@{0}> Vous avez quitté avec succès le mode 'AFK'.",
+        "afkbilgi": "{0}, La personne nommée <@{1}> que vous avez taguée est désormais AFK en raison de **{2}**.",
+        "sebepyokdb": "Sans raison",
+        "success": "{0}, Vous êtes passé avec succès en mode 'AFK' en raison de **{1}**."
+			}
+		},
+      "anket": {
+      "description": "Utile pour toute enquête.",
+      "usage": "[question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+      "messages": {
+        "plsquestion": "Veuillez poser une question!\nExemple d'utilisation: {0}anket [question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+        "minquestioncharacter": "Votre question doit comporter au minimum 4 caractères.",
+        "plsoption": "Veuillez spécifier au moins 2 options.\nExemple d'utilisation: {0}anket [question] {Option 1} {Option 2} {Option 3(Optional)} {Option 4(Optional)} {Option 5(Optional)}",
+        "maxoption": "Un sondage peut avoir jusqu'à 5 choix!",
+        "question": ":bar_chart: | **Enquête**",
+        "answer": "**Question:** {0}\n\n\n"
+      }
+    },
+      "ascii": {
+			"description": "Lance quelque chose que vous dites comme ASCII ART.",
+			"usage": "<ascii-text>",
+			"messages": {
+				"maxcharacter": "Vous avez utilisé trop de caractères ! Je peux écrire un texte de 75 caractères maximum.",
+        "plsargs": "S'il vous plaît écrivez un texte d'art ASCII!"
+			}
+		},
+		"avatar": {
+			"description": "Voir votre avatar ou celui d'un membre.",
+			"usage": "<membre[optionelle]>",
+			"messages": {
+				"userAvatar": "Avatar d'utilisateur",
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"usersAvatar": "{0}'s Avatar"
+			}
+		},
+    "balance": {
+      "description": "Affiche l'argent des membres que vous spécifiez. Si vous ne le précisez pas, il affichera votre argent.",
+      "usage": "<@membre[optionelle]>",
+      "messages": {
+        "balancemessage": "{0}'s Argents:\n\n**Portefeuille:** {1} CP\n**Banque:** {2} CP",
+        "memberpls": "Veuillez entrer un membre!"
+      }
+    },
+		"ban": {
+			"description": "Bloquer un membre du serveur.",
+			"usage": "<membre> <raiosan[optionelle]>",
+			"messages": {
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"cannotBanYourself": "Chut! Vous ne pouvez pas vous bloquer.",
+				"cannotBanCrypon": "Hey vous! Vous ne pouvez pas me bloquer en utilisant cette commande.",
+				"memberIsAdmin": "Allez-y doucement, un administrateur ne peut pas être banni de son propre serveur!",
+				"memberBannedWithReason": "<@{0}> a été interdit pour \"{1}\".",
+				"memberBanned": "<@{0}> a été banni avec succès.",
+				"errorOccurred": "Une erreur s'est produite lors du blocage <@{0}>!"
+			}
+		},
+		"botinfo": {
+			"description": "Voir l'utilisation du bot et les informations sur le système d'exploitation.",
+			"usage": "",
+			"messages": {
+				"cryponBotInfo": "Crypon Informations sur les robots",
+				"botsUptime": "**Bot's Disponibilité**",
+				"os": "**Operating System**",
+				"versions": "**Versions**",
+				"versionsValue": "**Crypon Version:** {0}\n**Node.js Version:** {1}\n**Discord.js Version:** {2}",
+				"memory": "**Mémoire**",
+				"memoryValue": "**Mémoire totale:** {0}\n**Mémoire utilisée:** {1} \n**Mémoire libre:** {2}",
+				"cpu": "**Processeur (CPU)**",
+				"cpuValue": "**Modèle:** {0}\n**La vitesse:** {1}\n**Nombre de cœurs:** {2}"
+			}
+		},
+      "fakemesaj": {
+			"description": "Vous faites semblant d'envoyer un autre message.",
+			"usage": "<@utilisatrice> <contenu-du-message>",
+			"messages": {
+				"membernotexited": "Vous n'avez spécifié aucun membre!",
+        "memberisbot": "Le faux message ne peut pas être utilisé sur les bots!",
+        "pleaseargs": "Veuillez spécifier un contenu de message!"
+			}
+		},
+		"gif": {
+			"description": "Affiche un GIF de Tenor selon le paramètre donné.",
+			"usage": "<mettre en doute>",
+			"messages": {
+				"loadingGIF": "Chargement du GIF...",
+				"noResultsFound": "Aucun GIF trouvé."
+			}
+		},
+		"grole": {
+			"description": "Donnez au membre que vous désignez le rôle que vous voulez.",
+			"usage": "<membre> <rôle>",
+			"messages": {
+				"maxArgs": "Cette commande prend jusqu'à 2 arguments!",
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"rolePosition": "Mon rôle doit être supérieur pour effectuer cette opération. S'il vous plaît, prenez mon rôle.",
+				"validMember": "Veuillez identifier un membre valide!",
+				"validRole": "Veuillez identifier un rôle valide!",
+				"roleAdded": "La {0} le rôle **a été ajouté** au <@{1}> membre.",
+				"errorOccurred": "Il y a eu un **problème** lors de l'ajout du {0} rôle à la <@{1}> membre."
+			}
+		},
+      "hack": {
+			"description": "Ils sont destinés à la personne que vous piratez. (Le plaisir est une commande.)",
+			"usage": "<membre>",
+			"messages": {
+        "hacking": "<@{0}> La personne nommée pirate...",
+        "hackcomplete": "<@{0}> La personne a été piratée. \n\nVoici les informations de connexion\nE-mail: {1} \nMot de passe: {2}",
+        "hackpasw": "Obtention des informations de connexion...",
+        "plsmember": "Veuillez mentionner une personne à pirater!",
+        "membernotyouerself": "Vous ne pouvez pas vous pirater!"
+			}
+		},
+		"help": {
+			"description": "Il fait une liste de toutes les commandes que vous pouvez utiliser dans le bot.",
+			"usage": "<commander[optionelle]>",
+			"messages": {
+				"botCommandsTitle": "{0} Commandes",
+				"listOfAllOfTheCommands": "Voici une liste de toutes les commandes que vous pouvez utiliser sur moi.",
+				"moreDetailsWithGuild": "Vous pouvez utiliser le `{0}help <command>` commande sur le **{1}** serveur pour obtenir des informations plus détaillées.\n\nSupport Server: https://discord.gg/z2nKKDn8ym",
+				"moreDetails": "Vous pouvez utiliser la commande `{0}help <command>` pour obtenir des informations plus détaillées.\n\nServeur d'assistance: https://discord.gg/z2nKKDn8ym",
+				"iSentCommands": "Je vous ai envoyé la liste de toutes mes commandes en message privé.",
+				"errorOccurred": "Je reçois une erreur en vous envoyant des commandes. Vous avez peut-être bloqué les messages privés.",
+				"commandNotFound": "Aucune commande de ce type n'a été trouvée.",
+				"commandTitle": "Commander **{0}**",
+				"commandName": "**Nom de la commande:** {0}\n",
+				"commandAlternatives": "**Alternatives:** {0}",
+				"commandDescription": "**La description:** {0}\n",
+				"commandUsage": "**Usage:** {0}{1} {2}"
+			}
+		},
+		"invite": {
+			"description": "Il envoie le lien d'invitation, le site Web et le serveur d'assistance du bot dans un seul message.",
+			"usage": "",
+			"messages": {
+				"inviteEmbed": ":love_letter: **Lien d'invitation**\n[Cliquez dessus, laissez-le venir!](https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8)\n\n:floppy_disk: **Serveur d'assistance**\n[Rejoignez-nous](https://discord.gg/z2nKKDn8ym)\n\n:gem: **Website**\n[Visite](https://aliyasiny65.github.io/crypon/index.html)"
+			}
+		},
+		"invites": {
+			"description": "Voir combien de personnes un membre a invité",
+			"usage": "<membre[optionelle]>",
+			"messages": {
+				"memberNotExists": "Hey <@{0}>, il n'y a pas de tel membre!",
+				"embedTitle": "{0} Invites",
+				"embedDescription": "<@{0}> a **{1}** invitations au total."
+			}
+		},
+		"job": {
+			"description": "Le bot choisit un travail au hasard pour vous ou le membre que vous taguez.",
+			"usage": "<membre[optionelle]>",
+			"messages": {
+				"jobs": [
+          "Éboueur",
+          "Ingénieur",
+          "Architecte",
+          "Ingénieur en bâtiment",
+          "Paresseux",
+          "Employé de la municipalité",
+          "Programmeur indépendant",
+          "Sans emploi",
+          "Sans emploi",
+          "Sans emploi",
+          "Sans emploi",
+          "Sans emploi",
+          "Docteur",
+          "Concierge",
+          "Infirmière",
+          "Chef",
+          "Procureur général",
+          "Juge",
+          "Avocat",
+          "Pêcheur",
+          "Soldat",
+          "Police",
+          "Forces spéciales",
+          "Vendeur",
+          "Cordonnier",
+          "Lave-vaisselle",
+          "Tuckshop",
+          "Président",
+          "Employé de station-service",
+          "Coiffeur",
+          "Agriculteur"
+				],
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"embedTitle": "{0}'s Emploi",
+				"embedDescription": "Le métier que j'ai choisi pour toi: **{0}**"
+			}
+		},
+		"kick": {
+			"description": "Expulser un membre du serveur.",
+			"usage": "<membre> <raioson[optionnelle]>",
+			"messages": {
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"cannotKickCrypon": "Hey vous! Vous ** ne pouvez pas ** me botter avec cette commande!",
+				"cannotKickYourself": "Vous ne pouvez pas vous expulser d'un serveur!",
+				"memberIsAdmin": "Allez-y doucement, un administrateur ne peut pas être expulsé de son propre serveur!",
+				"memberIsKickedWithReason": "<@{0}> a été **avec succès** éjecté du serveur!\n**Raison:** {1}",
+				"memberIsKicked": "<@{0}> a été **avec succès** éjecté du serveur!",
+				"errorOccurred": "Une erreur s'est produite lors du coup de pied <@{0}>."
+			}
+		},
+		"languages": {
+			"description": "Voir toutes les langues disponibles sur le bot.",
+			"usage": "",
+			"messages": {
+				"langsNotFound": "Aucune langue trouvée.",
+				"embedTitle": "Langues"
+			}
+		},
+      "lock": {
+      "description": "Cela désactive l'autorisation d'écrire à tout le monde sur le canal sur lequel vous utilisez la commande. (Les utilisateurs disposant d'une autorité administrative peuvent toujours écrire.)",
+      "usage": "",
+			"messages": {
+			  "error": "Quelque chose s'est mal passé!",
+        "successful": "🔒 Chaîne verrouillée avec succès!"
+			}
+    },
+		"logchannel": {
+			"description": "Choisissez le canal sur lequel vous souhaitez suivre ce qui se passe sur le serveur.",
+			"usage": "<canal>",
+			"messages": {
+				"selectChannel": "Veuillez sélectionner la chaîne que je continuerai à enregistrer!",
+				"successful": "Le canal de journalisation a été défini avec succès sur {0}.",
+				"errorOccurred": "Je reçois une erreur lors de la configuration du canal de journalisation."
+			}
+		},
+		"love": {
+			"description": "Cela montre l'amour que vous avez avec le membre que vous avez tagué.",
+			"usage": "<membre>",
+			"messages": {
+				"memberRequired": "Veuillez identifier un membre ou saisir un identifiant!",
+				"notYourself": "Vous ne pouvez pas mesurer votre amour pour vous-même !",
+				"first": "**Vous avez plus de travail...**\n\n",
+				"second": "**Pourquoi es-tu comme ça?!**\n\n",
+				"third": "**Alors peut-être...**\n\n",
+				"fourth": "**Bon, continue comme ça.**\n\n",
+				"fifth": "**Aïe, qu'est-ce que tu as fait ?**\n\n",
+				"sixth": "**Je vous souhaite du bonheur dans votre vie.**\n\n"
+			}
+		},
+		"minfo": {
+			"description": "Voir vos propres informations ou celles d'un autre membre.",
+			"usage": "<membre[optionnelle]>",
+			"messages": {
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"embedTitle": "{0}'s Informations",
+				"yourselfInfo": "**Votre nom d'utilisateur:** {0}\n**ID:** {1}\n**Création de compte:** {2}\n**Rejoindre le serveur:** {3}\n**Les rôles:** ",
+				"memberInfo": "**Nom d'utilisateur:** {0}\n**ID:** {1}\n**Création de compte:** {2}\n**Rejoindre le serveur:** {3}\n**Les rôles:** "
+			}
+		},
+		"mute": {
+			"description": "Couper le son du membre que vous avez tagué pour le temps que vous avez spécifié.",
+			"usage": "<membre> <temps[j|h|m]>",
+			"messages": {
+				"memberNotExists": "Veuillez entrer un membre valide!",
+				"cannotMuteYourself": "Vous ne pouvez pas vous mettre en sourdine!",
+				"memberAlreadyMuted": "Ce membre a été précédemment mis en sourdine!",
+				"enter32bit": "Le temps que vous avez spécifié est trop long!",
+				"writeValidTime": "Veuillez définir une heure valide! Le temps spécifié doit être d'au moins 5 secondes.",
+				"memberMutedTitle": "{0} En sourdine",
+				"memberMutedDescription": "<@{0}> a été mis en sourdine pendant un certain temps.",
+				"endTime": "Heure de fin",
+				"successful": "<@{0}> a été mis en sourdine avec succès!",
+				"muteRemovedTitle": "Muet supprimé",
+				"muteRemovedDescription": "<@{0}>'s le temps de mise en sourdine a expiré.",
+				"selectRole": "Veuillez choisir le rôle qui sera attribué aux membres à mettre en sourdine!"
+			}
+		},
+		"ping": {
+			"description": "Connaître la valeur de ping du bot.",
+			"usage": "",
+			"messages": {
+				"calculating": "Calcul du ping...",
+				"ping": "**Délai de Bot:** {0}\n**Délai d'API:** {1}"
+			}
+		},
+		"purge": {
+			"description": "Supprimer le nombre de messages que vous avez spécifié.",
+			"usage": "<montante>",
+			"messages": {
+				"argMustBeNumber": "La valeur saisie doit être un nombre! **{0}** n'est pas un nombre.",
+				"argLimit": "Le nombre de messages à supprimer doit être compris entre 1 et 100!"
+			}
+		},
+      "roles": {
+			"description": "Il affiche tous les rôles sur le serveur et le nombre de rôles sur le serveur.",
+			"usage": "",
+			"messages": {
+				"rolesembed": "Ce serveur a {0} rôles. Liste des rôles;\n {1}"
+			}
+		},
+		"reload": {
+			"description": "Recharger la commande de votre choix.",
+			"usage": "<commander>",
+			"messages": {
+				"commandNotFound": "Une telle commande n'est pas définie!",
+				"successful": "La commande `{0}` a été rechargée avec succès!",
+				"errorOccurred": "Une erreur se produit lors du rechargement de la commande `{0}`."
+			}
+		},
+		"report": {
+			"description": "Signaler un problème au créateur du bot.",
+			"usage": "<publier>",
+			"messages": {
+				"minArgLength": "Un rapport de problème doit comprendre au moins 3 mots!",
+				"successful": "Votre rapport a été livré avec succès aux producteurs, <@!{0}>! Il sera évalué de la manière la plus rapide et ce qui est nécessaire sera fait."
+			}
+		},
+		"rmrole": {
+			"description": "Supprimez le rôle que vous voulez du membre que vous avez spécifié.",
+			"usage": "<membre> <rôle>",
+			"messages": {
+				"maxArgs": "Cette commande prend jusqu'à 2 arguments!",
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"memberAdmin": "Vous ne pouvez supprimer aucun rôle de l'administrateur du serveur!",
+				"cannotRemoveFromYourself": "Vous ne pouvez pas prendre un rôle de vous-même!",
+				"roleRemoved": "La {0} rôle **has been removed** du <@{1}> membre.",
+				"errorOccurred": "Un problème est survenu lors de la suppression du rôle {0} du <@{1}> membre."
+			}
+		},
+		"setautorole": {
+			"description": "Choisissez le rôle principal qui sera attribué aux membres qui rejoignent le serveur.",
+			"usage": "<rôle>",
+			"messages": {
+				"selectRole": "Veuillez choisir le rôle automatique!",
+				"successful": "Le rôle automatique a été défini avec succès sur {0}.",
+				"errorOccurred": "Je reçois une erreur lors de la configuration du rôle automatique."
+			}
+		},
+		"setlanguage": {
+			"description": "Changer la langue par défaut du bot.",
+			"usage": "<Langue[{0}]>",
+			"messages": {
+				"argAlert": "Cette commande prend au plus 1 argument!",
+				"langNotExists": "Il n'y a pas une telle langue!",
+				"successful": "La langue a été modifiée avec succès!"
+			}
+		},
+		"setmuterole": {
+			"description": "Définir le rôle muet.",
+			"usage": "<rôle>",
+			"messages": {
+				"successful": "Le rôle de sourdine a été défini avec succès sur {0}!",
+				"tagARole": "Veuillez taguer un rôle!"
+			}
+		},
+		"setnickname": {
+			"description": "Changer le pseudo d'un membre.",
+			"usage": "<ID membres> <surnom>",
+			"messages": {
+				"maxArgs": "Cette commande prend au plus 1 argument!",
+				"memberNotExists": "Il n'y a pas de membre avec l'ID **{0}**. Vous avez peut-être donné le mauvais ordre des arguments, en utilisant cette commande: `{1}{2} {3}`",
+				"isAdmin": "Je ne peux pas changer le nom d'utilisateur de l'administrateur du serveur!",
+				"enterNickname": "Veuillez saisir un nouveau pseudo!",
+				"successful": "Le surnom du membre <@{0}> a été défini avec succès sur **{1}**.",
+				"errorOccurred": "Un problème a été rencontré lors de la définition du pseudo du membre."
+			}
+		},
+		"setprefix": {
+			"description": "Changer le préfixe du bot.",
+			"usage": "<préfixe>",
+			"messages": {
+				"maxLength": "Le préfixe peut avoir un maximum de 4 caractères!",
+				"successful": "Le préfixe a été défini avec succès sur `{0}`!"
+			}
+		},
+		"sinfo": {
+			"description": "Informations sur le serveur.",
+			"usage": "",
+			"messages": {
+				"embedTitle": "{0}'s Informations",
+				"embedDescription": "**Identifiant du serveur:** {0}\n**Nom du serveur:** {1}\n**Propriétaire du serveur:** {2}\n**Nombre total de membres:** {3}\n**Canal total:** {4}\n**Création de serveur:** {5}\n**Région:** {6}\n**Délai d'attente AFK:** {7}\n**{8} Préfixe:** {9}"
+			}
+		},
+    "slowmode": {
+      "description": "Définit la limite de temps d'envoi du message, c'est-à-dire le temps de mode lent, comme le temps que vous spécifiez sur le canal que vous utilisez la commande.",
+      "usage": "<temps (secondes)>",
+      "messages": {
+         "error": "Une erreur est survenue!",
+         "successful": "La durée du mode lent a été réglée avec succès sur {0} secondes!",
+         "wrongargs": "Vous avez donné un mauvais argument! La durée du mode lent peut être d'au moins 1 seconde."
+      }
+     },
+		"stats": {
+			"description": "Voir les statistiques du bot.",
+			"usage": "",
+			"messages": {
+				"embedTitle": "Statistiques",
+				"embedDescription": "**Nombre total de serveurs:** {0}\n**Nombre total d'utilisateurs:** {1}\n**Ping:** {2}\n**Processeur (CPU):** {3}\n**Utilisation de la mémoire:** {4}\n**Total Memory:** {5}\n**Temps de disponibilité:** {6}"
+			}
+		},
+		"unban": {
+			"description": "Unban a user.",
+			"usage": "<user-id>",
+			"messages": {
+				"memberNotExists": "Il n'y a pas de tel membre!",
+				"memberNotBanned": "Ce membre n'est pas déjà banni.",
+				"successful": "L'interdiction de <@{0}> a été levé avec succès!",
+				"errorOccurred": "Un problème est survenu lors de l'annulation du bannissement de l'utilisateur."
+			}
+		},
+      "unlock": {
+      "description": "Si la chaîne sur laquelle vous êtes a un verrou, il le supprime.",
+      "usage": "",
+			"messages": {
+				"error": "Quelque chose s'est mal passé!",
+        "successful": "🔒 Le verrouillage des chaînes a bien été supprimé!"
+			}
+    },
+		"unlogchannel": {
+			"description": "Supprimer le canal de journalisation précédemment sélectionné.",
+			"usage": "",
+			"messages": {
+				"successful": "Canal de journalisation supprimé avec succès!",
+				"errorOccurred": "Une erreur s'est produite.",
+				"channelNotSelected": "Le canal de journalisation n'est pas déjà sélectionné."
+			}
+		},
+		"unmute": {
+			"description": "Désactiver le muet d'un membre muet.",
+			"usage": "<membre>",
+			"messages": {
+				"memberNotFound": "Il n'y a pas de tel membre!",
+				"successful": "<@{0}>'s la sourdine a été supprimée avec succès!",
+				"errorOccurred": "Une erreur a été rencontrée.",
+				"memberNotMuted": "Ce membre n'est pas déjà muet ou le rôle muet n'a pas été sélectionné.",
+				"embedTitle": "Membre muet terminé",
+				"embedDescription": "<@{0}>'s muet terminé plus tôt."
+			}
+		},
+		"unsetautorole": {
+			"description": "Supprimer l'activité de rôle automatique précédemment sélectionnée.",
+			"usage": "",
+			"messages": {
+				"successful": "Le rôle automatique a été supprimé avec succès.",
+				"errorOccurred": "Je reçois une erreur lors de la suppression du rôle automatique.",
+				"roleNotSelected": "Le rôle automatique n'est pas déjà configuré."
+			}
+		},
+		"unsetmuterole": {
+			"description": "Supprimer le rôle muet précédemment sélectionné.",
+			"usage": "",
+			"messages": {
+				"successful": "Le rôle de sourdine a été supprimé avec succès.",
+				"errorOccurred": "Je reçois une erreur lors de la suppression du rôle muet.",
+				"roleNotSelected": "Le rôle muet n'est pas déjà configuré."
+			}
+		},
+		"unwlcchannel": {
+			"description": "Supprimer le canal d'accueil précédemment sélectionné.",
+			"usage": "",
+			"messages": {
+				"successful": "Chaîne de bienvenue des membres supprimée avec succès!",
+				"errorOccurred": "Une erreur s'est produite.",
+				"channelNotSelected": "Le canal d'accueil des membres n'est pas déjà sélectionné."
+			}
+		},
+		"wlcchannel": {
+			"description": "Spécifiez le canal par lequel les membres rejoignant le serveur seront accueillis.",
+			"usage": "<canal>",
+			"messages": {
+				"selectChannel": "Veuillez sélectionner le canal d'accueil!",
+				"channelIsText": "Le canal d'accueil des membres doit être un canal texte!",
+				"successful": "Le canal de bienvenue a été configuré avec succès sur <#{0}>.",
+				"errorOccurred": "Je reçois une erreur lors de la configuration du canal de bienvenue."
+			}
+		}
+	},
+	"events": {
+		"guildOwnerMessage": "Avez-vous eu un problème avec moi?\nSi c'est le cas, vous pouvez informer les producteurs avec la nouvelle commande 'report'. Par example: `!creport Ceci est un rapport.`",
+		"channelCreate": {
+			"messages": {
+				"categoryCreatedTitle": "Catégorie créée",
+				"categoryCreatedDescription": "**{0}** catégorie créée.",
+				"channelCreatedTitle": "Chaîne créée",
+				"channelCreatedDescription": "<#{0}> chaîne créée."
+			}
+		},
+		"channelDelete": {
+			"messages": {
+				"categoryDeletedTitle": "Catégorie supprimée",
+				"categoryDeletedDescription": "**{0}** catégorie supprimée.",
+				"channelDeletedTitle": "Chaîne supprimée",
+				"channelDeletedDescription": "**{0}** chaîne supprimée."
+			}
+		},
+		"channelUpdate": {
+			"messages": {
+				"categoryUpdatedTitle": "Catégorie mise à jour",
+				"categoryUpdatedDescription": "**{0}** catégorie mise à jour.\n\n**Ancien nom:** {1}\n**Nouveau nom:** {2}",
+				"channelUpdatedTitle": "Chaîne mise à jour",
+				"channelUpdatedDescription": "<#{0}> catégorie mise à jour.\n\n**Ancien nom:** {1}\n**Nouveau nom:** {2}"
+			}
+		},
+		"emojiCreate": {
+			"messages": {
+				"embedTitle": "Emoji créé",
+				"embedDescription": "**Nom:** {0}\n**ID:** {1}\n**Animée:** {2}\n**Photo:** {3}"
+			}
+		},
+		"emojiDelete": {
+			"messages": {
+				"embedTitle": "Emoji supprimé",
+				"embedDescription": "**Nom:** {0}\n**ID:** {1}\n**Animée:** {2}\n**Photo:** {3}"
+			}
+		},
+		"emojiUpdate": {
+			"messages": {
+				"embedTitle": "Emoji mis à jour",
+				"embedDescription": "**Nom:** {0}\n**Animation:** {1}\n**Photo:** {2}"
+			}
+		},
+		"guildBanAdd": {
+			"messages": {
+				"embedTitle": "Membre banni",
+				"embedDescription": "<@{0}> banni."
+			}
+		},
+		"guildBanRemove": {
+			"messages": {
+				"embedTitle": "Utilisateur non banni",
+				"embedDescription": "<@{0}> non banni."
+			}
+		},
+		"guildCreate": {
+			"messages": {
+				"message": "**Merci de m'avoir invité. :)**\n**•** Préfixe par défaut: !c\n**•** Pour obtenir de l'aide sur les commandes: `{0}help`\n\n**»** Pour changer la langue: `{0}setlanguage <language-code>`"
+			}
+		},
+		"guildDelete": {
+			"messages": {
+				"message": "Avez-vous eu un problème avec le bot ? Vous pouvez nous signaler ce problème.\nServeur d'assistance: https://discord.gg/AHfPcmjVpH\nSite Internet: https://aliyasiny65.github.io/crypon/"
+			}
+		},
+		"guildIntegrationsUpdate": {
+			"messages": {
+				"embedTitle": "Intégration mise à jour",
+				"embedDescription": "Intégrations du serveur mises à jour."
+			}
+		},
+		"guildMemberAdd": {
+			"messages": {
+				"welcomeMessages": [
+					"Bienvenue à bord, {0}. C'est bon de te voir ici.",
+					"Ooo, {0}'s ici. Tout le monde se lève!",
+					"Hourra! Tu nous as enfin rejoint, {0}!",
+					"Bienvenue {0}. Tu as failli rater la fête.",
+					"Quoi de neuf {0}. Le dîner est sur vous ce soir."
+				]
+			}
+		},
+		"guildMemberRemove": {
+			"messages": {
+				"embedTitle": "Membre de gauche",
+				"embedDescription": "<@{0}> a quitté le serveur.\n**Les rôles:** "
+			}
+		},
+		"guildUpdate": {
+			"messages": {
+				"embedTitle": "Serveur mis à jour",
+				"nameChange": "**Ancien nom:** {0}\n**Nouveau nom:** {1}\n\n",
+				"regionChange": "**Ancienne Région:** {0}\n**Nouvelle région:** {1}\n\n",
+				"iconChange": "**Ancienne icône:** {0}\n**Nouvelle icône:** {1}\n\n"
+			}
+		},
+		"messageDelete": {
+			"messages": {
+				"embedTitle": "Message supprimé - #{0}"
+			}
+		},
+		"messageDeleteBulk": {
+			"messages": {
+				"embedTitle": "{0} Message(s) supprimé(s) - #{1}"
+			}
+		},
+		"messageUpdate": {
+			"messages": {
+				"embedTitle": "Message modifié - #{0}"
+			}
+		},
+		"roleCreate": {
+			"messages": {
+				"embedTitle": "Role Created",
+				"embedDescription": "**Nom:** {0}\n**Couleur:** {1}\n**Mentionnable:** {2}"
+			}
+		},
+		"roleDelete": {
+			"messages": {
+				"embedTitle": "Role DelNom",
+				"embedDescription": "**Nom:** {0}\n**Couleur:** {1}\n**Mentionnable:** {2}\n**Créé à:** {3}"
+			}
+		},
+		"roleUpdate": {
+			"messages": {
+				"embedTitle": "Role Updated",
+				"embedDescription": "**Nom:** {0}\n**Couleur:** {1}\n**Mentionnable:** {2}"
+			}
+		}
+	}
+}
