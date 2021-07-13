@@ -146,6 +146,18 @@
 				"cpuValue": "**Model:** {0}\n**Speed:** {1}\n**Core Count:** {2}"
 			}
 		},
+		    "deposit": {
+    "description": "Transfers your money from your wallet to the bank.",
+    "usage": "<@member[optional]>",
+    "messages": {
+      "nottransferredmoney": "❌ You have no money to transfer!",
+      "successfullyallmoneytransferred": "✅ All money transferred successfully!",
+      "plstransferamount": "❌ Please specify how much to transfer!",
+      "walletnotmoneyamount": "❌ Your wallet doesn't have as much money as you stated!",
+      "banktransferamountmin": "❌ You can deposit at least 1 CP into your bank account!",
+      "successfullytransferred": "✅ You have successfully transferred {0} TL to your bank account!"
+      }
+    },
       "fakemesaj": {
 			"description": "You pretend to send another message.",
 			"usage": "<@user> <message-content>",
