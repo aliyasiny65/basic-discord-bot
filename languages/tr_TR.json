@@ -553,7 +553,7 @@
       			"plstransferamount": "❌ Lütfen kaç CP aktaracağınızı belirtiniz!",
       			"insufficientamount": "❌ Banka hesabınızda bu kadar para yok!",
       			"minamount": "❌ Minimum 1 CP para aktarabilirsin!",
-      			"transfersuccess": "✅ Başarıyla {0} TL banka hesabınızdan çekildi!"
+      			"transfersuccess": "✅ Başarıyla {0} CP banka hesabınızdan çekildi!"
       			}
     		},
 		"wlcchannel": {
