@@ -544,6 +544,18 @@
 				"channelNotSelected": "Üyeleri karşılama kanalı zaten daha önceden seçilmemiş."
 			}
 		},
+		"withdraw": {
+    		"description": "Banka hesabınızda ki parayı cüzdanınıza çeker.",
+    		"usage": "<miktar>",
+    		"messages": {
+      			"notmoney": "❌ Banka hesabınızda çekebileceğiniz para miktarı bulunmuyor!",
+      			"allmoneytransfersuccess": "✅ Banka hesabınızda ki bütün paranız başarıyla cüzdanınıza transfer edildi!",
+      			"plstransferamount": "❌ Lütfen kaç CP aktaracağınızı belirtiniz!",
+      			"insufficientamount": "❌ Banka hesabınızda bu kadar para yok!",
+      			"minamount": "❌ Minimum 1 CP para aktarabilirsin!",
+      			"transfersuccess": "✅ Başarıyla {0} TL banka hesabınızdan çekildi!"
+      			}
+    		},
 		"wlcchannel": {
 			"description": "Sunucuya katılan üyelerin karşılanacağı kanalı belirtin.",
 			"usage": "<kanal>",
