@@ -371,6 +371,23 @@
 				"ping": "**Délai de Bot:** {0}\n**Délai d'API:** {1}"
 			}
 		},
+		"pizza": {
+      "description": "Vous faites des pizzas. Attention, on doit aimer la pizza!",
+      "usage": "<quantité-de-saucisse> <fromage-quantité>",
+      "messages": {
+        	"pizzamessages": [
+            "Le client a adoré la pizza! Vous méritez le prix, votre nourriture est gratuite aujourd'hui! 😋",
+            "Tu mets trop de fromage! Pas question, réduisez le fromage!",
+            "Vous mettez du saucisson alors que le client est allergique au saucisson! Quelle disgrâce!",
+            "Le client a dit qu'il aura toujours des pizzas d'ici à partir de maintenant! Tu vas bien à nouveau!",
+            "Le célèbre youtubeur a mangé ta pizza dans sa vidéo! Tu es devenu célèbre, tout le monde mangera de la pizza d'ici!",
+            "Le client a dit que les ingrédients étaient plus frais que les autres pizzerias!",
+            "Saucisse non cuite et fromage gâté! Ce n'est pas le cas, achetez rapidement du nouveau matériel!",
+            "On a vu que les saucisses n'étaient pas cuites lors de la diffusion en direct sur Instagram! Vous êtes déshonoré. 👏",
+            "Vos pizzas ne plaisent pas aux clients, il est temps de fermer les volets. 😦"
+				]
+      }
+    },
 		"purge": {
 			"description": "Supprimer le nombre de messages que vous avez spécifié.",
 			"usage": "<montante>",
