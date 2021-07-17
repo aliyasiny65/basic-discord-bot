@@ -363,6 +363,23 @@
 				"ping": "**Bot Delay:** {0}\n**API Delay:** {1}"
 			}
 		},
+		    "pizza": {
+      "description": "You make pizza. Be careful, we got to like the pizza!",
+      "usage": "<sausage-amount> <cheese-amount>",
+      "messages": {
+        	"pizzamessages": [
+            "The customer loved the pizza! You deserve the award, your food is free today! 😋",
+            "You put too much cheese! No way, reduce the cheese!",
+            "You put sausage even though the customer is allergic to sausage! What a disgrace!",
+            "The customer said he will always have pizza from here from now on! You're fine again!",
+            "Famous youtuber ate your pizza in his video! You became famous, everyone will eat pizza from here!",
+            "Customer said the ingredients were fresher than other pizzerias!",
+            "Sausage uncooked and cheese spoiled! That's not the case, buy new materials quickly!",
+            "It was seen that the sausages were not cooked in the live broadcast on Instagram! You're disgraced. 👏",
+            "Your pizzas are not liked by the customers, it's time to close the shutters. 😦"
+				]
+      }
+    },
 		"purge": {
 			"description": "Delete the number of messages you specified.",
 			"usage": "<amount>",
