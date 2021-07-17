@@ -363,6 +363,23 @@
 				"ping": "**Bot Gecikmesi:** {0}\n**API Gecikmesi:** {1}"
 			}
 		},
+		"pizza": {
+      			"description": "Pizza yaparsın. Dikkatli ol pizzayı beğenmemiz lazım!",
+      			"usage": "<sucuk> <peynir>",
+      			"messages": {
+        			"pizzamessages": [
+            				"Müşteri pizzayı çok beğendi! Ödülü hak ettin bugün yemeğin bedava! 😋",
+            				"Peyniri çok fazla koymuşsun! Olmaz böyle peyniri azalt!",
+            				"Müşterinin sucuğa alerjisi olmasına rağmen sucuk koymuşsun! Bu ne rezillik!",
+            				"Müşteri bundan sonra hep buradan pizza yiyeceğini söyledi! Yine iyisin!",
+            				"Ünlü yutubır videosunda senin pizzanı yedi! Ünlü oldun herkes buradan pizza yiyecek!",
+            				"Müşteri malzemelerin diğer pizzacılardan daha taze olduğunu söyledi!",
+            				"Sucuk pişmemiş ve peynir bozuk! Böyle olmaz yeni malzemeler al çabuk!",
+            				"İstikiramda canlı yayında sucukların pişmediği görüldü! Rezil oldun. 👏",
+            				"Pizzaların müsteriler tarafından beğenilmiyor, kepenkleri kapatma zamanı. 😦"
+					]
+      			}
+    		},
 		"purge": {
 			"description": "Belirttiğiniz sayı kadar mesajı silin.",
 			"usage": "<miktar>",
