@@ -53,6 +53,7 @@
 					"Ocak",
 					"Şubat",
 					"Mart",
+					
 					"Nisan",
 					"Mayıs",
 					"Haziran",
@@ -129,6 +130,14 @@
 				"memberBannedWithReason": "<@{0}> \"{1}\" nedeniyle engellendi.",
 				"memberBanned": "<@{0}> başarıyla engellendi.",
 				"errorOccurred": "<@{0}> engellenirken bir hata oluştu!"
+			}
+		},
+				"btcfiyat": {
+			"description": "Bitcoin fiyatlarını gösterir.",
+			"usage": "",
+			"messages": {
+				"title": "Bitcoin Değer Listesi",
+				"embeddescription": "Değerlerin her biri, farklı ülkelerde değişecek olan bir Bitcoin'in değeridir."
 			}
 		},
 		"botinfo": {
