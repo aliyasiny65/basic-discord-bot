@@ -131,6 +131,14 @@
 				"errorOccurred": "An error occurred while blocking <@{0}>!"
 			}
 		},
+				"btcfiyat": {
+			"description": "Shows Bitcoin prices.",
+			"usage": "",
+			"messages": {
+				"title": "Bitcoin Value List",
+				"embeddescription": "Each of the values ​​is the value of one Bitcoin, which will vary in different countries."
+			}
+		},
 		"botinfo": {
 			"description": "See the bot's usage and operating system information.",
 			"usage": "",
