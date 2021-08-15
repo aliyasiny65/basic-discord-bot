@@ -363,6 +363,14 @@
 				"selectRole": "Veuillez choisir le rôle qui sera attribué aux membres à mettre en sourdine!"
 			}
 		},
+				"nuke": {
+			"description": "Il supprime tous les messages dans le canal que vous utilisez la commande.",
+			"usage": "",
+			"messages": {
+				"successtitle": "La chaîne a explosé!",
+				"successdescription": "La chaîne a explosé avec succès par {0}!"
+			}
+		},
 		"ping": {
 			"description": "Connaître la valeur de ping du bot.",
 			"usage": "",
