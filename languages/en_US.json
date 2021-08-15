@@ -363,6 +363,14 @@
 				"selectRole": "Please choose the role that will be given to members to be muted!"
 			}
 		},
+				"nuke": {
+			"description": "It deletes all the messages in the channel you are using the command.",
+			"usage": "",
+			"messages": {
+				"successtitle": "Channel exploded!",
+				"successdescription": "Channel successfully detonated by {0}!"
+			}
+		},
 		"ping": {
 			"description": "Learn out the ping value of the bot.",
 			"usage": "",
