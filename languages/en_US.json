@@ -183,6 +183,21 @@
 				"noResultsFound": "No GIF's found."
 			}
 		},
+				"githubinfo": {
+			"description": "Shows the information of the Github account where you typed the username.",
+			"usage": "<user-name>",
+			"messages": {
+				"errormsg": "An error occurred!",
+				"usernameshort": "The username you specified is too short. It must consist of at least 3 characters.",
+				"usernotfound": "The github account with the username you mentioned could not be found.",
+				"notfound": "Unspecified.",
+				"bio": "Biography",
+				"mail": "E-mail",
+				"location": "Location",
+				"company": "Company",
+				"nick": "Name"
+			}
+		},
 		"grole": {
 			"description": "Give the member you designate the role you want.",
 			"usage": "<member> <role>",
