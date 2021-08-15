@@ -184,6 +184,21 @@
 				"noResultsFound": "Herhangi bir GIF bulunamadı."
 			}
 		},
+				"githubinfo": {
+			"description": "Kullanıcı adını yazdığınız Github hesabının bilgilerini gösterir.",
+			"usage": "<kullanıcı-adı>",
+			"messages": {
+				"errormsg": "Hata Oluştu!",
+				"usernameshort": "Belirttiğiniz kullanıcı adı çok kısa. En az 3 karakterden oluşması gerekmektedir.",
+				"usernotfound": "Bahsettiğiniz kullanıcı adına sahip github hesabı bulunamadı.",
+				"notfound": "Belirtilmemiş.",
+				"bio": "Biyografi",
+				"mail": "E-posta",
+				"location": "Yaşadığı Yer",
+				"company": "Şirket",
+				"nick": "İsim"
+			}
+		},
 		"grole": {
 			"description": "Belirlediğiniz üyeye istediğiniz rolü verin.",
 			"usage": "<üye> <rol>",
