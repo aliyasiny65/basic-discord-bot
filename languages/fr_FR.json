@@ -183,6 +183,21 @@
 				"noResultsFound": "Aucun GIF trouvé."
 			}
 		},
+				"githubinfo": {
+			"description": "Affiche les informations du compte Github où vous avez tapé le nom d'utilisateur.",
+			"usage": "<Nom d'utilisateur>",
+			"messages": {
+				"errormsg": "An error occurred!",
+				"usernameshort": "Le nom d'utilisateur que vous avez spécifié est trop court. Il doit être composé d'au moins 3 caractères.",
+				"usernotfound": "Le compte github avec le nom d'utilisateur que vous avez mentionné est introuvable.",
+				"notfound": "Non spécifié.",
+				"bio": "Biographie",
+				"mail": "E-mail",
+				"location": "Lieu",
+				"company": "Compagnie",
+				"nick": "Nom"
+			}
+		},
 		"grole": {
 			"description": "Donnez au membre que vous désignez le rôle que vous voulez.",
 			"usage": "<membre> <rôle>",
