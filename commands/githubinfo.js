@@ -15,7 +15,9 @@ module.exports = {
             .setColor(0x30b5f2)
             .setTitle(translate(message, 'commands.githubinfo.messages.errormsg'))
             .setDescription(translate(message, 'commands.githubinfo.messages.usernameshort'));
-          return message.channel.send(lengtherr);
+          return message.channel.send(lengtherr).then((msg) => {
+				msg.delete({ timeout: 5000 });
+			});
         };
       
         const usernameerr = new Discord.MessageEmbed()
