@@ -132,6 +132,13 @@
 				"errorOccurred": "<@{0}> engellenirken bir hata oluştu!"
 			}
 		},
+				"banner": {
+			"description": "Bahsettiğiniz kişinin profil afişini gönderir.",
+			"usage": "<kullanıcı-adı/id>",
+			"messages": {
+				"error404banner": "Bu kullanıcının profil afişi yok veya bulunamadı!"
+			}
+		},
 				"btcfiyat": {
 			"description": "Bitcoin fiyatlarını gösterir.",
 			"usage": "",
