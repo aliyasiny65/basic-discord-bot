@@ -211,15 +211,22 @@
 				"errorOccurred": "Il y a eu un **problème** lors de l'ajout du {0} rôle à la <@{1}> membre."
 			}
 		},
-      "hack": {
+		"guildreset": {
+			"description": "Il supprime tous les canaux sur le serveur sur lequel vous utilisez la commande et le crée à nouveau. De cette façon, tous les messages sur le serveur sont effacés.",
+			"usage": "",
+			"messages": {
+				"notmepermissionlol": "Je ne suis pas autorisé à faire ça ! Veuillez m'accorder les privilèges **Administrateur**!" 
+			}
+		},
+      		"hack": {
 			"description": "Ils sont destinés à la personne que vous piratez. (Le plaisir est une commande.)",
 			"usage": "<membre>",
 			"messages": {
-        "hacking": "<@{0}> La personne nommée pirate...",
-        "hackcomplete": "<@{0}> La personne a été piratée. \n\nVoici les informations de connexion\nE-mail: {1} \nMot de passe: {2}",
-        "hackpasw": "Obtention des informations de connexion...",
-        "plsmember": "Veuillez mentionner une personne à pirater!",
-        "membernotyouerself": "Vous ne pouvez pas vous pirater!"
+        			"hacking": "<@{0}> La personne nommée pirate...",
+        			"hackcomplete": "<@{0}> La personne a été piratée. \n\nVoici les informations de connexion\nE-mail: {1} \nMot de passe: {2}",
+        			"hackpasw": "Obtention des informations de connexion...",
+        			"plsmember": "Veuillez mentionner une personne à pirater!",
+        			"membernotyouerself": "Vous ne pouvez pas vous pirater!"
 			}
 		},
 		"help": {
