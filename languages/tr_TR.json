@@ -219,15 +219,22 @@
 				"errorOccurred": "{0} rolü <@{1}> üyesine eklenirken bir **sorun oluştu**."
 			}
 		},
-    "hack": {
+		"guildreset": {
+			"description": "Komutu kullandığınız sunucuda ki bütün kanalları siler ve tekrar baştan oluşturur. Bu sayede sunucuda ki bütün mesajlar temizlenmiş olur.",
+			"usage": "",
+			"messages": {
+				"notmepermissionlol": "Bunu yapmak için yetkim yok! Lütfen bana **Yönetici** yetkisi veriniz!" 
+			}
+		},
+    		"hack": {
 			"description": "Söylediğiniz kişiyi hackler.(Eğlence amaçlı bir komuttur.)",
 			"usage": "<kişi>",
 			"messages": {
-        "hacking": "<@{0}> Adlı kişi hackleniyor...",
-        "hackcomplete": "<@{0}> Adlı kişi hacklendi. \n\nİşte Giriş Bilgileri\nEmail: {1} \nŞifre: {2}",
-        "hackpasw": "Giriş bilgileri alınıyor...",
-        "plsmember": "Lütfen hacklenecek bir kişiden bahsediniz!",
-        "membernotyouerself": "Kendinizi hackleyemezsiniz!"
+        			"hacking": "<@{0}> Adlı kişi hackleniyor...",
+        			"hackcomplete": "<@{0}> Adlı kişi hacklendi. \n\nİşte Giriş Bilgileri\nEmail: {1} \nŞifre: {2}",
+        			"hackpasw": "Giriş bilgileri alınıyor...",
+        			"plsmember": "Lütfen hacklenecek bir kişiden bahsediniz!",
+        			"membernotyouerself": "Kendinizi hackleyemezsiniz!"
 			}
 		},
 		"help": {
