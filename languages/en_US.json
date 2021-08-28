@@ -218,15 +218,22 @@
 				"errorOccurred": "There was a **problem** adding the {0} role to the <@{1}> member."
 			}
 		},
-      "hack": {
+		"guildreset": {
+			"description": "It deletes all channels on the server you use the command and creates it all over again. In this way, all messages on the server are cleared.",
+			"usage": "",
+			"messages": {
+				"notmepermissionlol": "I am not authorized to do this! Please grant me **Administrator** privileges!" 
+			}
+		},
+      		"hack": {
 			"description": "They're aimed at the person you're hacking. (Fun is a command.)",
 			"usage": "<member>",
 			"messages": {
-        "hacking": "<@{0}> The person named is hacking...",
-        "hackcomplete": "<@{0}> The person was hacked. \n\nHere is the Login Information\nEmail: {1} \nPassword: {2}",
-        "hackpasw": "Getting login information...",
-        "plsmember": "Please mention a person to be hacked!",
-        "membernotyouerself": "You cannot hack yourself!"
+        			"hacking": "<@{0}> The person named is hacking...",
+       				"hackcomplete": "<@{0}> The person was hacked. \n\nHere is the Login Information\nEmail: {1} \nPassword: {2}",
+        			"hackpasw": "Getting login information...",
+        			"plsmember": "Please mention a person to be hacked!",
+        			"membernotyouerself": "You cannot hack yourself!"
 			}
 		},
 		"help": {
