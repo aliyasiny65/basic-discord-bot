@@ -131,6 +131,13 @@
 				"errorOccurred": "An error occurred while blocking <@{0}>!"
 			}
 		},
+				"banner": {
+			"description": "It sends the profile banner of the person you mentioned.",
+			"usage": "<user-name/id>",
+			"messages": {
+				"error404banner": "This user does not have a profile banner or not found!"
+			}
+		},
 				"btcfiyat": {
 			"description": "Shows Bitcoin prices.",
 			"usage": "",
